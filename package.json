@@ -1,0 +1,24 @@
+{
+  "name": "roomconnect",
+  "version": "1.0.0",
+  "description": "Connecting Lifestyles, Finding Roomates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "app": "nodemon --env-file=.env app.js",
+    "start": "node --env-file=.env app.js"
+  },
+  "keywords": [],
+  "author": "varshik23 <sontivarshik@gmail.com>",
+  "license": "ISC",
+  "repository": "https://github.com/varshik23/RoomConnect.git",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
